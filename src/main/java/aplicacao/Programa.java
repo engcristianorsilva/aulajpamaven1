@@ -29,6 +29,9 @@ public class Programa {
 		System.out.println(p2);
 		System.out.println(p3);
 
+		em.close();
+		emf.close();
+
 		System.out.println("Pronto!!!!!");
 
 	}
